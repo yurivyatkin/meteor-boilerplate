@@ -1,0 +1,35 @@
+{
+    "name": "meteor-vue-tailwind",
+    "private": true,
+    "scripts": {
+        "start": "meteor run",
+        "test": "meteor test --once --driver-package meteortesting:mocha",
+        "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+        "visualize": "meteor --production --extra-packages bundle-visualizer"
+    },
+    "dependencies": {
+        "@babel/runtime": "7.0.0-beta.55",
+        "meteor-node-stubs": "^0.4.1",
+        "vue": "^2.0.3",
+        "vue-meteor-tracker": "^1.0.3"
+    },
+    "meteor": {
+        "mainModule": {
+            "client": "client/main.js",
+            "server": "server/main.js"
+        },
+        "testModule": "tests/main.js"
+    },
+    "devDependencies": {
+        "postcss": "^6.0.23",
+        "postcss-import": "^12.0.0",
+        "postcss-load-config": "^1.2.0",
+        "tailwindcss": "^0.6.5"
+    },
+    "postcss": {
+        "plugins": {
+            "postcss-import": {},
+            "tailwindcss": {}
+        }
+    }
+}
