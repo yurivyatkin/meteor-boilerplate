@@ -1,19 +1,10 @@
-import { Template } from 'meteor/templating'
-import Vue from 'vue'
+// Libaries
+import {Meteor} from 'meteor/meteor';
+import {Vue} from 'meteor/akryum:vue';
 
-// if you are familiar with Vue and want to add VueRouter
-// feel free to code it and import here
-// import router from './router'
-import './main.html'
+// Main app
+import App from '/imports/ui/App.vue';
 
-// import Vue App component
-import App from './App.vue'
-
-Template.vueApp.rendered = function() {
-    // Create new Vue application
-    const vm = new Vue({
-        el: '#app',
-        // router,  # if we have it
-        render: h => h(App)
-    })
-}
+Meteor.startup(() => {
+    new Vue(App).$mount(document.body);
+});
