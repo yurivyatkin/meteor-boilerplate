@@ -1,5 +1,4 @@
-# Meteor + Apollo + Vue.js + TailwindCSS
-
+# Meteor Boilerplate
 This project is intended to be used as a quickstart for building full stack Meteor web apps.
 It utilises Meteor, Vue, Apollo (GraphQL) and Tailwind to allow for rapid development.
 
