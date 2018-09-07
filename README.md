@@ -1,6 +1,9 @@
-# Meteor + Vue.js + TailwindCSS
+# Meteor + Apollo + Vue.js + TailwindCSS
 
-This is a starter project which has the basic scaffolding to start making full stack web apps powered by Meteor, Vue and Tailwind. It also comes with a nice svg icon component.
+This project is intended to be used as a quickstart for building full stack Meteor web apps.
+It utilises Meteor, Vue, Apollo (GraphQL) and Tailwind to allow for rapid development.
+
+### [Demo](https://meteor-vue-tailwind-ncqfgjndoy.now.sh/)
 
 ## Getting Started
 
@@ -15,7 +18,9 @@ Getting started is very easy; you can do so by following these steps:
 ## Built With
 
 * [Meteor](https://www.meteor.com/) - The web framework used for backend/database
-* [Vue.Js](https://vuejs.org/) - Front end reactive framework
+* [Apollo (GraphQL)](https://www.apollographql.com/) - Used to build a universal GraphQL API
+* [Vue.js](https://vuejs.org/) - Front end reactive framework
+    * [Vue Router](https://router.vuejs.org/) - Simple routing for Vue
 * [TailwindCSS](https://tailwindcss.com/) - CSS Framework for Rapid UI Development
 * [Feather Icons](https://feathericons.com/) - Simply beautiful open source icons
 
