@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.8.4",
+    "cssnano": "^4.1.10",
     "meteor-node-stubs": "^0.4.1",
     "vue": "^2.5.0",
     "vue-meteor-tracker": "^1.0.3",
